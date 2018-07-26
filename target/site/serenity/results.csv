@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Lookup a definition","Looking up the definition of 'apple'","SUCCESS","2018-07-26T12:38:21.3+05:30[Asia/Calcutta]","0.0","14.45"
+"Lookup a definition","Looking up the definition of 'pear'","SUCCESS","2018-07-26T12:38:35.749+05:30[Asia/Calcutta]","0.0","11.37"
+"Google Search feature","Search NLBC in google","SUCCESS","2018-07-26T12:38:49.559+05:30[Asia/Calcutta]","0.0","8.57"

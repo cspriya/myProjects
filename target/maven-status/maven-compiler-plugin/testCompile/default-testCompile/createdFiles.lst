@@ -1,0 +1,8 @@
+com\uiautomation\runners\DefinitionTest.class
+com\uiautomation\steps\EndUserSteps.class
+com\uiautomation\steps\GoogleSearchSteps.class
+com\uiautomation\pages\GoogleSearchPage.class
+com\uiautomation\utils\Constants.class
+com\uiautomation\pages\DictionaryPage.class
+com\uiautomation\runners\GoogleSearchTest.class
+com\uiautomation\steps\DefinitionSteps.class
