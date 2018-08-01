@@ -5,7 +5,7 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                withMaven(maven : 'maven_3_5_3') {
+                withMaven(maven : 'maven_3_5_0') {
                     bat 'mvn clean'
                 }
             }
@@ -14,7 +14,7 @@ pipeline {
         stage ('Testing Stage:Firefox') {
 
             steps {
-                withMaven(maven : 'maven_3_5_3') {
+                withMaven(maven : 'maven_3_5_0') {
                     bat 'mvn verify -Dcontext=firefox -Dwebdriver.driver=firefox'
                 }
             }
@@ -23,7 +23,7 @@ pipeline {
          stage ('Testing Stage: Chrome') {
 
             steps {
-                withMaven(maven : 'maven_3_5_3') {
+                withMaven(maven : 'maven_3_5_0') {
                     bat 'mvn verify -Dcontext=chrome -Dwebdriver.driver=chrome'
                 }
             }
@@ -32,7 +32,7 @@ pipeline {
 
         stage ('Deployment Stage') {
             steps {
-                withMaven(maven : 'maven_3_5_3') {
+                withMaven(maven : 'maven_3_5_0') {
                     echo 'Deployment...'
                 }
             }
