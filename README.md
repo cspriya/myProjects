@@ -1,6 +1,5 @@
 # "Selenium" BDD with "Cucumber" and "Serenity"
-* This project is an example of how to setup and write selenium tests using BDD approach with Serenity framework
-* How to create jenkins pipeline
+* Selenium tests using BDD approach with Serenity framework with jenkins pipeline
 
 ## Project Description:
 * Project setup with Selenium WebDriver and windows 10

@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Lookup a definition","Looking up the definition of 'apple'","SUCCESS","2018-07-26T12:38:21.3+05:30[Asia/Calcutta]","0.0","14.45"
-"Lookup a definition","Looking up the definition of 'pear'","SUCCESS","2018-07-26T12:38:35.749+05:30[Asia/Calcutta]","0.0","11.37"
+"Lookup a definition","Looking up the definition of 'apple'","SUCCESS","2018-08-02T15:17:18.453+05:30[Asia/Calcutta]","0.0","14.98"
+"Lookup a definition","Looking up the definition of 'pear'","SUCCESS","2018-08-02T15:17:33.433+05:30[Asia/Calcutta]","0.0","12.46"
+"Lookup a definition","Looking up the definition of 'apple' & 'pear'","SUCCESS","2018-08-02T15:17:45.898+05:30[Asia/Calcutta]","0.0","108.83"

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.uiautomation.runners.DefinitionTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.104 sec - in com.uiautomation.runners.DefinitionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 137.884 sec - in com.uiautomation.runners.DefinitionTest
