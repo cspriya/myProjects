@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <failsafe-summary result="255" timeout="false">
-  <completed>5</completed>
+  <completed>4</completed>
   <errors>1</errors>
   <failures>0</failures>
   <skipped>0</skipped>

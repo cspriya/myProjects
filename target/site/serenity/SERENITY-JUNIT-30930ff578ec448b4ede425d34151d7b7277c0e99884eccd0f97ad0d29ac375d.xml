@@ -1,17 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Google Search feature" skipped="0" tests="1" time="35.4" timestamp="2018-08-02T15:19:35.363+05:30[Asia/Calcutta]"><testcase name="Search NLBC in google"><error message="Timed out after 5000 milliseconds: net.serenitybdd.core.pages.RenderedPageObjectView$2@1c9e07c6&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DEL1-LHP-N01469', ip: '192.168.159.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'DEL1-LHP-N01469', ip: '192.168.159.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Timed out after 5000 milliseconds: net.serenitybdd.core.pages.RenderedPageObjectView$2@1c9e07c6
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'DEL1-LHP-N01469', ip: '192.168.159.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: unknown
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'DEL1-LHP-N01469', ip: '192.168.159.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: unknown</error><system-err>Timed out after 5000 milliseconds: net.serenitybdd.core.pages.RenderedPageObjectView$2@1c9e07c6
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'DEL1-LHP-N01469', ip: '192.168.159.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: unknown
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'DEL1-LHP-N01469', ip: '192.168.159.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: unknown&#13;
-com.uiautomation.pages.GoogleSearchPage.performSearch(GoogleSearchPage.java:26)&#13;
-com.uiautomation.steps.GoogleSearchSteps.user_enters_search_keyword_as(GoogleSearchSteps.java:26)&#13;
-✽.User enters search keyword as "NLBC"(src/test/resources/features/update_definition/googlesearch.feature:5)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Google Search feature" skipped="0" tests="1" time="8.6" timestamp="2018-08-09T14:37:17.715+05:30[Asia/Calcutta]"><testcase name="Search NLBC in google"/></testsuite>

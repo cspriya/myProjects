@@ -50,11 +50,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 4],
+                ['Passing', 2],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0],
+                ['Errors',  1],
                 ['Compromised',  0],
                 ['Untested',  0],
             ]
@@ -83,11 +83,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '4 requirements tested successfully'},
+                {label: '2 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
-                {label: '0} requirements with errors'},
+                {label: '1} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
@@ -187,7 +187,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-08-2018 15:17</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-08-2018 14:36</span>
     <br style="clear:left"/>
 </div>
 
@@ -226,9 +226,9 @@
 
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
-                                    <td>4</td>
-                                    <td>4</td>
-                                    <td>0</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>1</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -257,9 +257,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>4</td>
-            <td>4 (100%)</td>
-            <td>0 (0%)</td>
+            <td>3</td>
+            <td>2 (67%)</td>
+            <td>1 (33%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -273,15 +273,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>4</td>
-            <td>4 (100%)</td>
-            <td>0 (0%)</td>
+            <td>3</td>
+            <td>2 (67%)</td>
+            <td>1 (33%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">2 minutes 16 seconds</td>
+                <td colspan="5">30 seconds</td>
         </tr>
         </body>
     </table>
@@ -317,52 +317,6 @@
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="3f2eb02b84915919e645bc1d661db798c9551b3b7917c98aa2b542e20b74c12a.html" class="ellipsis"
-                                           title="Looking up the definition of 'apple' ">
-                                            Looking up the definition of 'apple'
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="SUCCESS-text">8</td>
-
-
-                                <td class="SUCCESS-text" data-sort="2018-08-02 15:17:18">15:17:18</td>
-
-                                <td class="SUCCESS-text">14.98</td>
-                            </tr>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="830af9bb6bab08a3bcf6c0ff03222ca32381fd3631cc518baf92d1f9860fa1ef.html" class="ellipsis"
-                                           title="Looking up the definition of 'pear' ">
-                                            Looking up the definition of 'pear'
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="SUCCESS-text">8</td>
-
-
-                                <td class="SUCCESS-text" data-sort="2018-08-02 15:17:33">15:17:33</td>
-
-                                <td class="SUCCESS-text">12.46</td>
-                            </tr>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
                                         <a href="c10b71b65acde924906d6d6df49fcb7f90245e2e2c8a576be6171580310e2ca8.html" class="ellipsis"
                                            title="Looking up the definition of 'apple' & 'pear' ">
                                             Looking up the definition of 'apple' &amp; 'pear'&nbsp;(2  examples)
@@ -374,9 +328,32 @@
                                 <td class="SUCCESS-text">18</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2018-08-02 15:17:45">15:17:45</td>
+                                <td class="SUCCESS-text" data-sort="2018-08-09 14:36:47">14:36:47</td>
 
-                                <td class="SUCCESS-text">108.83</td>
+                                <td class="SUCCESS-text">29.35</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+
+                                        <a href="2a4602a3476c948c01498bb7adc75862ea389aa5bc4daaedcebbbd2ba26f9600.html" class="ellipsis"
+                                           title="User Login scenario Class cast exception: java.util.Linke...">
+                                            User Login scenario
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="ERROR-text">2</td>
+
+
+                                <td class="ERROR-text" data-sort="2018-08-09 14:37:16">14:37:16</td>
+
+                                <td class="ERROR-text">0.69</td>
                             </tr>
                         </tbody>
                     </table>

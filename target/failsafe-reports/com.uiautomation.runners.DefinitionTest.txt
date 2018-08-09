@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.uiautomation.runners.DefinitionTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 137.884 sec - in com.uiautomation.runners.DefinitionTest
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 31.172 sec <<< FAILURE! - in com.uiautomation.runners.DefinitionTest
+User Login scenario(Lookup a definition)  Time elapsed: 0.685 sec  <<< ERROR!
+java.lang.ClassCastException: java.util.LinkedList cannot be cast to gherkin.pickles.PickleTable
+

@@ -20,6 +20,13 @@ public class DictionaryPage extends PageObject {
 
 	@FindBy(name = "go")
 	private WebElementFacade lookupButton;
+	@FindBy(css = "button[value='Search']")
+	WebElementFacade searchButton;
+
+	public void searchFor(String keywords) {
+		$("#search-query").sendKeys(keywords);
+		searchButton.click();
+	}
 
 	public void enter_keywords(String keyword) {
 		searchTerms.type(keyword);

@@ -1,8 +1,12 @@
+com\api\cucumber\transform\TransformData.class
 com\uiautomation\runners\DefinitionTest.class
 com\uiautomation\steps\EndUserSteps.class
+com\api\cucumber\readexcel\ExcelReader.class
 com\uiautomation\steps\GoogleSearchSteps.class
+com\api\cucumber\readexcel\ExcelReader$ExcelReaderBuilder.class
 com\uiautomation\utils\ExplicitWaiting.class
 com\uiautomation\steps\DefinitionSteps.class
+com\api\cucumber\readexcel\ExcelReader$1.class
 com\uiautomation\utils\RandomGenerator.class
 com\uiautomation\pages\GoogleSearchPage.class
 com\uiautomation\utils\ExcelUtils.class
@@ -10,3 +14,5 @@ com\uiautomation\utils\Constants.class
 com\uiautomation\pages\DictionaryPage.class
 com\uiautomation\runners\GoogleSearchTest.class
 com\uiautomation\utils\DateAndTime.class
+com\api\cucumber\transform\ExcelDataToDataTable.class
+com\api\cucumber\transform\User.class
