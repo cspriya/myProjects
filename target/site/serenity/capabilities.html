@@ -50,11 +50,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 2],
                 ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  1],
+                ['Errors',  0],
                 ['Compromised',  0],
                 ['Untested',  0],
             ]
@@ -83,11 +83,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 requirements tested successfully'},
+                {label: '2 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
-                {label: '1} requirements with errors'},
+                {label: '0} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
@@ -184,7 +184,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-08-2018 14:36</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-08-2018 15:12</span>
     <br style="clear:left"/>
 </div>
 
@@ -216,7 +216,7 @@
                                     <tr>
                                         <td class="summary-leading-column"><a href="#requirements-tabs">Capabilities</a></td>
                                         <td>2</td>
-                                        <td>1</td>
+                                        <td>2</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
@@ -224,7 +224,7 @@
                                     <tr>
                                         <td class="summary-leading-column"><a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html">Features</a></td>
                                         <td>2</td>
-                                        <td>1</td>
+                                        <td>2</td>
                                         <td>0</td>
                                         <td>0</td>
                                         <td>0</td>
@@ -232,9 +232,9 @@
 
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
-                                    <td>4</td>
                                     <td>3</td>
-                                    <td>1</td>
+                                    <td>3</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -263,9 +263,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>4</td>
-            <td>3 (75%)</td>
-            <td>1 (25%)</td>
+            <td>3</td>
+            <td>3 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -279,9 +279,9 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>4</td>
-            <td>3 (75%)</td>
-            <td>1 (25%)</td>
+            <td>3</td>
+            <td>3 (100%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -326,14 +326,14 @@
 
 
 
-                <tr class="test-ERROR requirementRow">
+                <tr class="test-SUCCESS requirementRow">
                     <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                        <span style="display:none">4</span>
+                        <span class="status_icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                        <span style="display:none">1</span>
                     </td>
                     <td class="cardNumber requirementRowCell"></td>
 
-                    <td class="ERROR-text requirementRowCell">
+                    <td class="SUCCESS-text requirementRowCell">
                         <a href="javaScript:void(0)" class="read-more-link">
                             <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
@@ -346,12 +346,12 @@ I want to be able to look up the meaning of the word</div>
 
                         <td class="bluetext requirementRowCell">1</td>
 
-                    <td class="greentext highlighted-value requirementRowCell">3</td>
+                    <td class="greentext highlighted-value requirementRowCell">2</td>
 <!--
                     <td class="greentext requirementRowCell">2</td>
                     <td class="bluetext requirementRowCell">0</td>
                     <td class="redtext requirementRowCell">0</td>
-                    <td class="lightorangetext requirementRowCell">1</td>
+                    <td class="lightorangetext requirementRowCell">0</td>
                     <td class="violettext requirementRowCell">0</td>
 -->
                         <td class="greentext highlighted-value requirementRowCell">0</td>
@@ -368,69 +368,69 @@ I want to be able to look up the meaning of the word</div>
 <table>
     <tr>
         <td width="40px">
-            <div class="small">66.7%</div>
+            <div class="small">100%</div>
         </td>
         <td width="125px">
             <div class="percentagebar"
-                 title="  - Total tests: 3
-  - Passing tests: 2 (66.7%)
+                 title="  - Total tests: 2
+  - Passing tests: 2 (100%)
   - Failing tests: 0 (0%)
-  - Tests with errors: 1 (33.3%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)"
                  style="width: 125px;">
                 <div class="pendingbar"
-                     title="  - Total tests: 3
-  - Passing tests: 2 (66.7%)
+                     title="  - Total tests: 2
+  - Passing tests: 2 (100%)
   - Failing tests: 0 (0%)
-  - Tests with errors: 1 (33.3%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)"
                      style="width: 125px;">
                     <div class="ignoredbar"
                          style="width: 125px;"
-                         title="  - Total tests: 3
-  - Passing tests: 2 (66.7%)
+                         title="  - Total tests: 2
+  - Passing tests: 2 (100%)
   - Failing tests: 0 (0%)
-  - Tests with errors: 1 (33.3%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                         <div class="compromisedbar"
                              style="width: 125px;"
-                             title="  - Total tests: 3
-  - Passing tests: 2 (66.7%)
+                             title="  - Total tests: 2
+  - Passing tests: 2 (100%)
   - Failing tests: 0 (0%)
-  - Tests with errors: 1 (33.3%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                             <div class="errorbar"
                                  style="width: 125px;"
-                                 title="  - Total tests: 3
-  - Passing tests: 2 (66.7%)
+                                 title="  - Total tests: 2
+  - Passing tests: 2 (100%)
   - Failing tests: 0 (0%)
-  - Tests with errors: 1 (33.3%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                 <div class="failingbar"
-                                     style="width: 83px;"
-                                     title="  - Total tests: 3
-  - Passing tests: 2 (66.7%)
+                                     style="width: 125px;"
+                                     title="  - Total tests: 2
+  - Passing tests: 2 (100%)
   - Failing tests: 0 (0%)
-  - Tests with errors: 1 (33.3%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                     <div class="passingbar"
-                                         style="width: 83px;"
-                                         title="  - Total tests: 3
-  - Passing tests: 2 (66.7%)
+                                         style="width: 125px;"
+                                         title="  - Total tests: 2
+  - Passing tests: 2 (100%)
   - Failing tests: 0 (0%)
-  - Tests with errors: 1 (33.3%)
+  - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
@@ -452,14 +452,14 @@ I want to be able to look up the meaning of the word</div>
 <table>
     <tr>
         <td width="40px">
-            <div class="small">0%</div>
+            <div class="small">100%</div>
         </td>
         <td width="125px">
             <div class="percentagebar"
                  title="Search for definitions:
-  - Passing Features: 0 (0%
+  - Passing Features: 1 (100%
   - Features Failing: 0 (0%
-  - Features Failing with errors: 1
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
@@ -467,9 +467,9 @@ I want to be able to look up the meaning of the word</div>
                  style="width: 125px;">
                 <div class="pendingbar"
                      title="Search for definitions:
-  - Passing Features: 0 (0%
+  - Passing Features: 1 (100%
   - Features Failing: 0 (0%
-  - Features Failing with errors: 1
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
@@ -478,9 +478,9 @@ I want to be able to look up the meaning of the word</div>
                     <div class="ignoredbar"
                          style="width: 125px;"
                          title="Search for definitions:
-  - Passing Features: 0 (0%
+  - Passing Features: 1 (100%
   - Features Failing: 0 (0%
-  - Features Failing with errors: 1
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
@@ -488,9 +488,9 @@ I want to be able to look up the meaning of the word</div>
                         <div class="compromisedbar"
                              style="width: 125px;"
                              title="Search for definitions:
-  - Passing Features: 0 (0%
+  - Passing Features: 1 (100%
   - Features Failing: 0 (0%
-  - Features Failing with errors: 1
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
@@ -498,29 +498,29 @@ I want to be able to look up the meaning of the word</div>
                             <div class="errorbar"
                                  style="width: 125px;"
                                  title="Search for definitions:
-  - Passing Features: 0 (0%
+  - Passing Features: 1 (100%
   - Features Failing: 0 (0%
-  - Features Failing with errors: 1
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
   - Untested Features: 0 (0%">
                                 <div class="failingbar"
-                                     style="width: 0px;"
+                                     style="width: 125px;"
                                      title="Search for definitions:
-  - Passing Features: 0 (0%
+  - Passing Features: 1 (100%
   - Features Failing: 0 (0%
-  - Features Failing with errors: 1
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
   - Untested Features: 0 (0%">
                                     <div class="passingbar"
-                                         style="width: 0px;"
+                                         style="width: 125px;"
                                          title="Search for definitions:
-  - Passing Features: 0 (0%
+  - Passing Features: 1 (100%
   - Features Failing: 0 (0%
-  - Features Failing with errors: 1
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
@@ -794,32 +794,9 @@ I want to be able to update definitions in the dictionary</div>
                                 <td class="SUCCESS-text">18</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2018-08-09 14:36:47">14:36:47</td>
+                                <td class="SUCCESS-text" data-sort="2018-08-09 15:12:54">15:12:54</td>
 
-                                <td class="SUCCESS-text">29.35</td>
-                            </tr>
-
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
-                                    <div class="ellipsis">
-
-                                        <a href="2a4602a3476c948c01498bb7adc75862ea389aa5bc4daaedcebbbd2ba26f9600.html" class="ellipsis"
-                                           title="User Login scenario Class cast exception: java.util.Linke...">
-                                            User Login scenario
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="ERROR-text">2</td>
-
-
-                                <td class="ERROR-text" data-sort="2018-08-09 14:37:16">14:37:16</td>
-
-                                <td class="ERROR-text">0.69</td>
+                                <td class="SUCCESS-text">29.16</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -840,9 +817,9 @@ I want to be able to update definitions in the dictionary</div>
                                 <td class="SUCCESS-text">3</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2018-08-09 14:37:17">14:37:17</td>
+                                <td class="SUCCESS-text" data-sort="2018-08-09 15:13:24">15:13:24</td>
 
-                                <td class="SUCCESS-text">8.6</td>
+                                <td class="SUCCESS-text">9.62</td>
                             </tr>
                         </tbody>
                     </table>

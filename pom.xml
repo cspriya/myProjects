@@ -105,7 +105,7 @@
 		<plugins>
 			<plugin>
 				<groupId>net.masterthought</groupId>
-				<artifactId>cucumber-reporting</artifactId>
+				<artifactId>maven-cucumber-reporting</artifactId>
 				<version>3.19.0</version>
 				<executions>
 					<execution>

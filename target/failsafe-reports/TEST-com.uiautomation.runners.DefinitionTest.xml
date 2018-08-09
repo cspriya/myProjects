@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.uiautomation.runners.DefinitionTest" time="31.172" tests="3" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.uiautomation.runners.DefinitionTest" time="30.472" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
@@ -63,43 +63,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Looking up the definition of &apos;apple&apos; &amp; &apos;pear&apos;" classname="Lookup a definition" time="15.276"/>
-  <testcase name="Looking up the definition of &apos;apple&apos; &amp; &apos;pear&apos;" classname="Lookup a definition" time="13.779"/>
-  <testcase name="User Login scenario" classname="Lookup a definition" time="0.685">
-    <error message="java.util.LinkedList cannot be cast to gherkin.pickles.PickleTable" type="java.lang.ClassCastException">java.lang.ClassCastException: java.util.LinkedList cannot be cast to gherkin.pickles.PickleTable
-</error>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
-        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
-  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
- (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
-  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
- (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
-        /_/                                                                
-
-TEST PASSED: Looking up the definition of 'apple' & 'pear'
-----------------------------------------------------------------------------
-[main] INFO net.serenitybdd.core.Serenity - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: User Login scenario
--------------------------------------------------------------------(lookup-a-definition;user-login-scenario)
-[main] ERROR net.serenitybdd.core.Serenity - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
-
-TEST FAILED WITH ERROR: User Login scenario
----------------------------------------------------------------------
-[main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When User login with the following username and password with data in excel ats "C:\Projects\FrameWorks\New folder\CucumberTutorial-master\CucumberTutorial-master\src\test\resorces\ExcelData\NavData.xlsx"
-[main] ERROR net.serenitybdd.core.Serenity - java.util.LinkedList cannot be cast to gherkin.pickles.PickleTable
-]]></system-err>
-  </testcase>
+  <testcase name="Looking up the definition of &apos;apple&apos; &amp; &apos;pear&apos;" classname="Lookup a definition" time="14.368"/>
+  <testcase name="Looking up the definition of &apos;apple&apos; &amp; &apos;pear&apos;" classname="Lookup a definition" time="14.377"/>
 </testsuite>
