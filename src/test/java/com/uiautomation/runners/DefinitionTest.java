@@ -9,7 +9,10 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = { "src/test/resources/features/consult_dictionary/LookupADefinition.feature" }, glue = {
-		"com.uiautomation.steps" })
+@CucumberOptions(features = {
+		"src/test/resources/features/consult_dictionary/LookupADefinition.feature" }, monochrome = true, plugin = {
+				"html:target/cucumber-html-report", "json:target/cucumber-json-report.json"
+
+}, glue = { "com.uiautomation.steps" })
 public class DefinitionTest {
 }
