@@ -23,6 +23,6 @@ Scenario Outline: Looking up the definition of 'apple' & 'pear'
 		|apple|A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates. | 
 		|pear |An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.|
 		
-Scenario: User Login scenario 
-	Given User is at the login page of the applications 
-	When User login with the following username and password with data in excel ats "C:\Projects\FrameWorks\New folder\CucumberTutorial-master\CucumberTutorial-master\src\test\resorces\ExcelData\NavData.xlsx"
+#Scenario: User Login scenario 
+#	Given User is at the login page of the applications 
+#	When User login with the following username and password with data in excel ats "C:\Projects\FrameWorks\New folder\CucumberTutorial-master\CucumberTutorial-master\src\test\resorces\ExcelData\NavData.xlsx"
