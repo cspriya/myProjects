@@ -9,12 +9,34 @@ import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.hasItem;
 
 import com.uiautomation.pages.DictionaryPage;
+import com.uiautomation.pages.LoginPage;
 
 import net.thucydides.core.annotations.Step;
 
 public class EndUserSteps {
 
+	LoginPage loginPage;
 	DictionaryPage dictionaryPage;
+
+	@Step
+	public void is_the_login_page() {
+		loginPage.open();
+	}
+
+	@Step
+	public void enterUserName(String userName) {
+		loginPage.enterUserName(userName);
+	}
+
+	@Step
+	public void enterPassword(String password) {
+		loginPage.enterPassword(password);
+	}
+
+	@Step
+	public void loginButton() throws InterruptedException {
+		loginPage.loginButton();
+	}
 
 	@Step
 	public void enters(String keyword) {

@@ -26,9 +26,11 @@ public class ExcelDataToDataTable extends Transformer<DataTable> {
 		ExcelReader reader = new ExcelReader.ExcelReaderBuilder().setFileLocation(filePath).setSheet(0).build();
 
 		List<List<String>> excelData = getExcelData(reader);
-
+		System.out.println("TestList" + excelData);
+		System.out.println("Test1" + excelData.size());
 		List<DataTableRow> dataTableRows = getDataTableRows(excelData);
-
+		System.out.println("TestList" + excelData);
+		System.out.println("Test2" + dataTableRows.size());
 		DataTable table = getDataTable(dataTableRows);
 
 		return table;
