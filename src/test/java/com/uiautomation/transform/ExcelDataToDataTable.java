@@ -1,4 +1,4 @@
-package com.api.cucumber.transform;
+package com.uiautomation.transform;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.Locale;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 
-import com.api.cucumber.readexcel.ExcelReader;
+import com.uiautomation.readexcel.ExcelReader;
 
 import cucumber.api.DataTable;
 import cucumber.api.Transformer;
