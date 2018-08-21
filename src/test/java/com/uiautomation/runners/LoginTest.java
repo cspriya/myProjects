@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = {
-		"src/test/resources/features/reqtest-Login/Login.feature" }, monochrome = true, plugin = {
+		"src/main/resources/features/reqtest-Login/Login.feature" }, monochrome = true, plugin = {
 				"html:target/cucumber-html-report", "json:target/cucumber-json-report.json"
 
 }, glue = { "com.uiautomation.steps" })

@@ -9,6 +9,6 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = { "src/test/resources/features/update_definition/googlesearch.feature" }, glue = { "com.uiautomation.steps" })
+@CucumberOptions(features = { "src/main/resources/features/update_definition/googlesearch.feature" }, glue = { "com.uiautomation.steps" })
 public class GoogleSearchTest {
 }
