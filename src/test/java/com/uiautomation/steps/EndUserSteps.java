@@ -12,6 +12,7 @@ import com.uiautomation.pages.DictionaryPage;
 import com.uiautomation.pages.LoginPage;
 
 import net.thucydides.core.annotations.Step;
+import net.thucydides.core.annotations.WhenPageOpens;
 
 public class EndUserSteps {
 
@@ -36,6 +37,18 @@ public class EndUserSteps {
 	@Step
 	public void loginButton() throws InterruptedException {
 		loginPage.loginButton();
+	}
+
+	@Step
+	@WhenPageOpens
+	public void getErrorMessage(String expectedString) throws InterruptedException {
+		String test = loginPage.getErrorMessage();
+		System.out.println("test+" + test);
+	}
+
+	@Step
+	public void checkVisibility() throws InterruptedException {
+		loginPage.checkVisibility();
 	}
 
 	@Step

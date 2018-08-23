@@ -1,8 +1,12 @@
 package com.uiautomation.utils;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
@@ -31,7 +35,8 @@ public class ExcelUtils
 	private static HSSFCell xlsCell;
 	@SuppressWarnings("unused")
 	private static HSSFRow xlsRow;
-
+	private List<String> al1 = null;
+	private String user;
 	/** To get the Excel-XLSX File with Path and SheetName */
 	public static void getExcelFile(String Path,String SheetName) throws Exception 
 	{
@@ -281,4 +286,35 @@ public class ExcelUtils
 		int rowNum = xlsWorkSheet.getRow(0).getLastCellNum();
 		return rowNum;
 	}
+	/*
+	 * Read data from CSV file
+	 * 
+	 * @param
+	 * 
+	 * @return String
+	 */
+	public String fetchDataFromCSV() {
+		try {
+			String path = System.getProperty("user.dir");
+			path = path + "\\src\\test\\java\\csv\\users.csv";
+			System.out.println(path);
+			al1 = new ArrayList<String>();
+
+			BufferedReader br = new BufferedReader(new FileReader(path));
+			String userData = br.readLine();
+			while (userData != null) {
+				String userArray[] = userData.split(",");
+				for (String item1 : userArray) {
+					al1.add(item1);
+				}
+				userData = br.readLine();
+
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		user = al1.get(0);
+		return user;
+	}
+
 }

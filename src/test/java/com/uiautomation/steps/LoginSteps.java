@@ -25,6 +25,12 @@ public class LoginSteps {
 		login.loginButton();
 	}
 
+	@Then("^User Navigate to app dashboard and get \"([^\"]*)\"$")
+	public void user_Navigate_to_app_dashboard_and_get(String expectedString) throws Exception {
+		//login.checkVisibility();
+		login.getErrorMessage(expectedString);
+	}
+
 	@Then("^User Navigate to app dashboard$")
 	public void user_Navigate_to_app_dashboard() throws Exception {
 		System.out.println("Test3");
