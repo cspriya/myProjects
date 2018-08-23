@@ -2,7 +2,7 @@ Feature: As a reQtest user Login to application
 
 Scenario Outline: Successful Login to reQtest with Valid Credentials 
 	Given User is on Login Page 
-	When User enters "<userName>" and "<Password>" 
+	When User enters "<userName>" and "<Password>"
 	Then User Navigate to app dashboard and get "<WelcomeMessage>" 
 	
 	Examples: 
